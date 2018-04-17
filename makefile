@@ -2,8 +2,8 @@
 PROJECT_NAME := stm32f103rct6
 
 # 编译工具
-SDK_PATH := /Applications/gcc-arm-none-eabi/sdk/bin/
-
+# SDK_PATH := /Applications/gcc-arm-none-eabi/sdk/bin/
+SDK_PATH := 
 # 参与编译的源文件列表
 SOURCE := system/src/newlib/_cxx.cpp \
           system/src/newlib/_exit.c \
